@@ -67,3 +67,15 @@ Are there any words with no vowels?
 Find ‘’1-syllable’’ words (words with exactly one vowel)
 Find ‘’2-syllable’’ words (words with exactly two vowels)
 
+################################################################
+Exercises with sed
+
+wrdInitConSeqIgnoreVowel
+This cuts off vowels at the beginning of the word first so it includes
+... the first middle consonant sequences
+wrdInitConSeqNoVwls
+This is only consonant sequences that are right at the beginning
+wrdFinConSeq
+Doesn't cut vowels off the end
+
+Some of these are shared between the two for weird tokens like www and stuff.
